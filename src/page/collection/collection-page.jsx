@@ -4,8 +4,7 @@ import CollectionItem from '../../components/collection-item/collection-item';
 import { selectCollection } from '../../redux/shop/shop-selector';
 import './collection-page.scss';
 
-const CollectionPage = ({ collections, match }) => {
-  console.log("lorem ipsum", collections)
+const CollectionPage = ({ collections }) => {
   const { title, items } = collections;
   return (
       <div className='collection-page'>
